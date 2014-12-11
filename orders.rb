@@ -24,7 +24,7 @@ def well_price (order)
    return 2.to_f
  
   elsif (6..8).include?(order)
-   puts "price = 4$ cut 2$ totallly from 6-8 items"
+   #puts "price = 4$ cut 2$ totallly from 6-8 items"
    return 4.to_f 
  
  end
